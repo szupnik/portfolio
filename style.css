@@ -1,7 +1,6 @@
 
 
 
-/* Just a simple reset section */
 
 .footer ul {
     margin: 0;
@@ -54,12 +53,6 @@ p {
     display: none;
 }
 
-/* End of Reset section */
-
-/************************/
-
-/* Main body styles */
-
 .Hi h1 {
         font: 100% "itc-avant-garde-gothic-pro","Work Sans", Helvetica, sans-serif;
         color: white;
@@ -111,12 +104,6 @@ b {
     background-color: #fff;
     z-index: 600
 }
-
-/* Main body styles end */
-
-/************************/
-
-/* Intro section styles */
 
 .Hi {
     max-width: 74rem;
@@ -183,19 +170,13 @@ b {
     bottom: 2rem
 }
 
-/* Intro section style ends */
-
-/****************************/
-
-/* Project section begins */
-
 .projects {
     margin-top: 80vh;
-    background-color: #eee;
+    background-color: #ffa76e;
 }
 
 .projects .projects-collage {
-    /* max-width: 96rem;    Enable this if you want some margin down the sides of the projects. */
+    
     margin: 0 auto
 }
 
@@ -296,11 +277,6 @@ img {
     width: 100%
 }
 
-/* Project style section ends */
-
-/******************************/
-
-/* Contact section begins */
 
 a.button-slide {
     position: relative;
@@ -413,14 +389,8 @@ footer ul li a:hover:after {
     transform: scaleX(1)
 }
 
-/* Contact section ends */
-
-/****************************/
-
-/* PopUp section begins */
 .popUp{
     color: black;
-    /* height: 70vh; */
     width: 80vw;
     position: fixed;
     top: 10vh;
@@ -435,7 +405,6 @@ footer ul li a:hover:after {
     background: url('https://images.unsplash.com/photo-1526049997133-25caee4c5796?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4a785d2392ba5c7683a2b09ee1b40b20&auto=format&fit=crop&w=1048&q=80');
     background-position: center;
     background-size: cover;
-    /* height: 70vh; */
     background-position: center
 }
 
@@ -480,14 +449,6 @@ footer ul li a:hover:after {
     background-size: cover;
     display: block;
 }
-
-
-/****************************/
-
-/* PopUp section ends for DESKTOP VIEW */
-
-/* Tablet styling for popUp */
-
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .popUp{
         width: 95vw;
@@ -499,16 +460,12 @@ footer ul li a:hover:after {
     .popUp .popUpImg{
         background-size: cover;
         background-position: center;
-        /* display: none; */
+        
         width: 95vw;
         height: 50vh;
     }
 }
 
-/* END OF Tablet styling for popUp */
-
-
-/* START OF styling mobile view for popUp */
 @media (min-width: 320px) and (max-width: 480px) {
  .popUp{
         width: 95vw;
@@ -522,16 +479,11 @@ footer ul li a:hover:after {
     .popUp .popUpImg{
         background-size: cover;
         background-position: center;
-        /* display: none; */
         width: 95vw;
         height: 50vh;
     }
 }
-/* END OF styling mobile view for popUp */
 
-/* ************************************ */
-
-/* Styling for form on DESKTOP/PC VIEW  */
 #form { 
   width: 60%;
   margin: 0 auto;
@@ -636,13 +588,6 @@ footer ul li a:hover:after {
   }
 }
 
-/********************/
-
-/*END OF Styling for form on DESKTOP/PC VIEW  */
-
-/********************/
-
-/* Styling for form on TABLET VIEW  */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   #form { 
     text-align: left;
@@ -655,13 +600,7 @@ footer ul li a:hover:after {
     width: 30vw;
   }
 }
-/********************/
 
-/* END Styling for form on TABLET VIEW  */
-
-/********************/
-
-/* Styling for form on MOBILE VIEW  */
 @media (min-width: 320px) and (max-width: 480px) {
   #form { 
     text-align: left;
@@ -689,6 +628,3 @@ footer ul li a:hover:after {
     width: 60vw;
   }
 }
-/********************/
-
-/* END Styling for form on MOBILE VIEW  */
